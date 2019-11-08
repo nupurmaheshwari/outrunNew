@@ -22,6 +22,7 @@ func places(_ apicall: String, userCompletionHandler: @escaping (Array<[String]>
         }
     }
 
+    //testing if mohona can add things
     // MARK: - Result
     struct Result: Decodable {
         let geometry: Geometry
